@@ -1,0 +1,248 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-1 .large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+}
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+	color: #f9f1e9;
+	text-align: center;
+	bottom: 0;
+	left: 0px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*логотип знания*/
+.main-title .logo {
+
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	bottom: 0;
+	left: 10px;
+	display: block;
+	width: 300px;
+	height: 100px;
+	background-image: url(../img/logosn.png);
+	-webkit-background-size: 100% 80%;
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	-webkit-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+/*логотип ф5*/
+.main-title .f5 {
+	animation-delay: 2s;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 20px;
+	right: 10px;
+	display: block;
+	width: 110px;
+	height: 80px;
+	background-image: url(../img/f5logo.png);
+	-webkit-background-size: 100% 80%;
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	-webkit-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay: 2.5s;
+	animation-delay: 2.5s;
+}
+
+
+
+
+/*Меню навигации*/
+
+.main-menu {
+	-webkit-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-delay: 4s;
+	-o-animation-delay: 4s;
+	animation-delay: 4s;
+}
+.main-menu ul {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	list-style-type: none;
+	margin: auto;
+	font-size: 18px;
+	height: 200px;
+	width: 100%;
+}
+.main-menu li{
+	margin-left: -40px;
+}
+
+
+.main-menu a {
+	transition: all 1s ease;
+	display: inline-block;
+	transition: all 0.5s ease;
+	width: 300px;
+	padding: 5px;
+}
+.main-menu a:hover {
+/*background-color: rgba(0, 168, 265, .2);*/
+/*background-color: rgba(250, 250, 250, .2);*/
+	width: 100%;
+	transition: all 1s ease;
+	color: #f4dfa1;
+}
+
+
+
+
+
+.demo-1 .main-title {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+
+/*Страница "оставить заявку"*/
+
+.zayavka {
+	color: #ffffff;
+	background-image: url("../img/demo-1-bg.jpg");
+	background-position: cover;
+}
+
+.zayavka h1 {
+	text-align: center;
+}
+
+
+.form-about input {
+	height: 40px;
+	width: 90%;
+	display: inline-block;
+	color: black;
+	background-color: rgba(250, 250, 250);
+	border: 1px solid white;
+}
+.form-about select {
+	height: 40px;
+	width: 920;
+	color: black;
+	background-color: rgba(250, 250, 250);
+	border: 1px solid white;
+}
+
+.form-about option {
+	background-color: #ffffff;
+}
+.form-about input[type="submit"] {
+background-color: rgba(0, 168, 265, .5);
+}
+.mw {
+	text-align: left;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+/*О нас*/
+
+.about {
+	background-image: url("../img/demo-1-bg.jpg");
+	background-position: cover;	
+	color: #ffffff;
+	text-align: left;
+}
+.about h1 {
+	text-align: center;
+}
+
+
+
+/*Вакансии*/
+.vacansion {
+
+	background-image: url("../img/demo-1-bg.jpg");
+	background-position: cover;	
+	color: #ffffff;
+	text-align: left;
+}
+.vacansion input[type="submit"] {
+background-color: rgba(0, 168, 265, .5);
+border: 1px solid #ffffff;
+}
+
+
+
+
+
+.vacansion-form input[type="text"] {
+	height: 40px;
+	width: 400px;
+	display: inline-block;
+	color: black;
+	background-color: rgba(250, 250, 250);
+	border: 1px solid white;
+}
+.vacansion-form select {
+	height: 40px;
+	width: 90%;
+	color: black;
+	background-color: rgba(250, 250, 250);
+	border: 1px solid white;
+}
+
+.vacansion-form option {
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title {
+		font-size: 3em;
+	}
+
+}
